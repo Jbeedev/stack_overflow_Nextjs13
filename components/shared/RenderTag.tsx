@@ -1,12 +1,11 @@
 import React from "react";
-import { Button } from "../ui/button";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 
 interface RenderTagProps {
-  _id: number;
+  _id: string;
   showCount?: boolean;
-  key: number;
+  key: string;
   name: string;
   total?: number;
 }
